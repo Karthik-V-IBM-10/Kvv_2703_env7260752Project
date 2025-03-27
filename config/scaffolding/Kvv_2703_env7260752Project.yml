@@ -8,6 +8,14 @@ packages:
   gitUsername: Karthik-V-IBM-10
   gitBranch: bvt
 services:
+- serviceName: project.kvv_2703_env7260752.integrations:AlertsCRTandERT
+  packages:
+  - name: Kvv_2703_env7260752Project
+    version: "1.0"
+- serviceName: pub.alert:emit
+  packages:
+  - name: WmPublic
+    version: 11.1.0.0.2043
 - serviceName: project.kvv_2703_env7260752.integrations:Sum
   packages:
   - name: Kvv_2703_env7260752Project
